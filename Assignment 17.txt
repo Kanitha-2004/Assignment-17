@@ -1,0 +1,63 @@
+1.What is Emmet?
+Ans:
+Emmet is a plugin for text editors that helps in writing HTML and CSS code quickly using shorthand syntax. For example, typing div.container>ul>li*3 and pressing Tab expands into:
+
+<div class="container">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+2.Difference between a Library and Framework?
+Ans:
+  Feature       Library                Framework                 
+    
+  Control       You call the library   Framework calls your code 
+  Flexibility   More flexible          More opinionated          
+  Examples      React, Lodash          Angular, Vue, Django   
+
+3.What is CDN? Why do we use it?
+Ans:
+CDN (Content Delivery Network) is a network of servers distributed globally that deliver web content faster.
+We use it to:
+
+Load scripts like React/Bootstrap faster
+Reduce server load
+Improve performance and caching   
+
+4.Why is React known as React?
+Ans:
+React was named due to its reactive programming principles. It reacts to state/data changes and efficiently updates the UI.
+
+5.What is crossorigin in the script tag?
+Ans:
+The crossorigin attribute is used for handling CORS (Cross-Origin Resource Sharing).
+React CDN uses it to allow the browser to request the script from another domain.
+
+Example:
+<script src="..." crossorigin></script>
+
+6.What is the difference between React and ReactDOM?
+Ans:
+React: Contains the core functionality to create components.
+ReactDOM: Handles rendering React components to the DOM (browser).
+
+7.What is the difference between react.development.js and react.production.js files via CDN?
+Ans:
+  File                     Purpose                                              
+ 
+  `react.development.js`   Includes warnings and helpful messages for debugging 
+  `react.production.js`    Minified and optimized for performance, no warnings  
+
+8.What is async and defer?
+Ans:
+Used in <script> tags to control script loading:
+
+async: Loads and executes script immediately (may block rendering).
+defer: Loads script in background, executes after DOM is parsed.
+
+
+
+
